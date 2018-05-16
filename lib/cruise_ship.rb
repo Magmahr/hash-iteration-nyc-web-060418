@@ -7,5 +7,9 @@
 # }
 
 def select_winner(passengers)
-  
+  passengers.each do |k,v|
+    if k == suite_b
+      return v
+    end  
+  end  
 end
