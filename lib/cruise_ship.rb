@@ -8,7 +8,7 @@
 
 def select_winner(passengers)
   passengers.each do |k,v|
-    if k.include?("a")
+    if k == suite_a:
       return v
     end  
   end  
